@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>后台首页</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+      <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="../css/liGonggong.css" type="text/css" />
+    <link rel="stylesheet" href="../css/libraryEditor.css" type="text/css" />
+  </head>
+  <body>
+   <header>
+     <ul>
+       <li><a href="javascript:void(0)"><img src="../images/home/homeOne.png" alt="" />公共图书馆<p></p></a></li>
+       <li><a href="javascript:void(0)"><img src="../images/home/homeTwo.png" alt="" />文化馆（群艺馆）<p></p></a></li>
+       <li><a href="javascript:void(0)"><img src="../images/home/homeThree.png" alt="" />朝鲜民族艺术馆<p></p></a></li>
+       <li><a href="javascript:void(0)"><img src="../images/home/homeFour.png" alt="" />综合文化中心<p></p></a></li>
+       <li><a href="javascript:void(0)"><img src="../images/home/homeFire.png" alt="" />文化广场<p></p></a></li>
+     </ul>
+   </header>
+  
+    <!-- 内容 -->
+    <div class="main">
+      <div class="top">
+        <div class="edit">
+          <p>编辑图书馆信息</p>
+          <p>返回</p>
+        </div>
+        <!-- 流程 -->
+        <div class="picture">
+          <ul>
+            <li class="active"><span>1</span><i></i><p>机构建设情况</p></li>
+            <li class="active"><i></i><span>2</span><i></i><p>设备配发<br />(乐器、音响、信息共享工程、图书)</p></li>
+            <li><i></i><span>3</span><i></i><p>从业人员</p></li>
+            <li><i></i><span>4</span><i></i><p>实物/电子藏量</p></li>
+            <li><i></i><span>5</span><i></i><p>各类活动</p></li>
+            <li><i></i><span>6</span><p>其他</p></li>
+          </ul>
+        </div>
+        <!-- 表单 -->
+        <div class="form">
+          <div>
+            <label for="exampleInputName1">应配套：</label>
+            <input type="text" class="form-control" id="exampleInputName1">
+            <em>此项不能为空，请填写资料</em>
+          </div>
+          <div>
+            <label for="exampleInputName2">已配套：</label>
+            <input type="text" class="form-control" id="exampleInputName2">
+            <em>此项不能为空，请填写资料</em>
+          </div>
+        </div>
+      </div>
+      <!-- 底部 -->
+      <div class="down">
+        <a href="libraryEditor.html" class="button">上一项</a>
+        <a href="libraryEditorThree.html" class="btn btn-primary btn-lg disabled twoXia" role="button">下一项</a>
+      </div>
+    </div>
+  
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    
+    <script src="../js/libraryEditor.js"></script>
+
+  </body>
+</html>

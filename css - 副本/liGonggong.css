@@ -1,0 +1,193 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.3.22
+    最新更新:2018.3.22
+    修改人员:无
+    修改日期:无
+    修改原因:无
+    修改代码行数区间:无
+*/
+body{background: #F1F1F1;}
+/* 头部 */
+header{ width: 100%; height: 100px; border:1px solid #F1F1F1;}
+header ul{ width: 98%; height: 60%; line-height: 60px; margin:20px 1%; background: #fff;}
+header ul li{ width: 23.3%; float: left; font-size: 10px; text-align: center; position:relative; cursor: pointer;/*  background: url(../img/home/top.png) no-repeat left; */ color: #AFAFAF;}
+header ul li{/* padding-left: 30px; */}
+
+header ul li img{ margin-right: 20px;}
+header ul li:first-child{ background-position: 19px 16px;}
+header ul li:nth-child(2){ background-position: 38px -49px;}
+header ul li:nth-child(3){ background-position: 48px -122px;}
+header ul li:nth-child(4){ background-position: 45px -191px;}
+header ul li:nth-child(5){ background-position: 46px -265px;}
+header ul li:first-child{ width: 15%; text-align: left; padding-left: 2%;}
+header ul li:last-child{ width: 15%; text-align: right; padding-right: 2%;}
+header ul li p{ width: 20px; height: 2px; background: #0B9AE8; position: absolute; top: 58px; left:50%; display: none;}
+header ul li:first-child p{left: 40%;}
+header ul li:nth-child(4) p{left: 52%;}
+header ul li:last-child p{ left: 70%;}
+header ul li:first-child:hover{ background-position: -255px 16px;}
+header ul li:nth-child(2):hover{ background-position: -236px -49px;}
+header ul li:nth-child(3):hover{ background-position: -224px -122px;}
+header ul li:nth-child(4):hover{ background-position: -227px -191px;}
+header ul li:nth-child(5):hover{ background-position: -228px -265px;}
+header ul li:hover{ color: #000;}
+header ul li:hover p{ display: block;}
+
+header ul li.active{ color: #000;}
+header ul li.active p{ display: block;}
+
+
+
+/* 流程图 */
+.main .picture{width: 90%; height: 90px; margin:0 auto; zoom: 1;}
+.main .picture li{float: left; text-align: center; position: relative;}
+.main .picture li span{ text-align: center; display: inline-block; width: 30px; height: 30px; line-height: 30px; text-align: center; border-radius:100%; background: #ddd; color: #fff; font-size: 14px;}
+.main .picture li i{ display: inline-block; width: 50px; height: 3px; background:#ddd; vertical-align: middle;}
+.main .picture li:nth-child(2) i{ width: 80px;}
+.main .picture li:first-child p{ margin-left: -50px;}
+.main .picture li:last-child p{ margin-right: -50px;}
+
+.main .picture li.active i,.main .picture li.active span{ background: #1E3C85;}
+.main .picture li.active i,.main .picture li.active span:hover{
+    cursor: pointer;
+}
+.main .picture li.active p{ color: #2561A9;}
+
+
+@media(min-width:800px){
+    header ul li{ font-size: 12px;}
+}
+
+@media(min-width:900px){
+    header ul li{ font-size: 14px;}
+    .main .picture li i{width: 56px;}
+    .main .picture li:first-child p{ margin-left: -56px;}
+    .main .picture li:last-child p{ margin-right: -56px;}
+}
+
+@media(min-width:960px){
+    header ul li{ font-size: 16px;}
+    .main .picture li i{width: 63px;}
+    .main .picture li:first-child p{ margin-left: -63px;}
+    .main .picture li:last-child p{ margin-right: -63px;}
+}
+
+@media(min-width:1000px){
+    .main .picture li i{width: 67px;}
+    .main .picture li:first-child p{ margin-left: -67px;}
+    .main .picture li:last-child p{ margin-right: -67px;}
+}
+
+@media(min-width:1050px){
+    .main .picture li i{width: 73px;}
+    .main .picture li:first-child p{ margin-left: -73px;}
+    .main .picture li:last-child p{ margin-right: -73px;}
+}
+
+@media(min-width:1100px){
+    .main .picture li i{width: 77px;}
+    .main .picture li:first-child p{ margin-left: -77px;}
+    .main .picture li:last-child p{ margin-right: -77px;}
+}
+
+@media(min-width:1150px){
+    .main .picture li i{width: 82px;}
+    .main .picture li:first-child p{ margin-left: -82px;}
+    .main .picture li:last-child p{ margin-right: -82px;}
+}
+
+@media(min-width:1200px){
+    .main .picture li i{width: 88px;}
+    .main .picture li:first-child p{ margin-left: -88px;}
+    .main .picture li:last-child p{ margin-right: -88px;}
+}
+
+@media(min-width:1250px){
+    .main .picture li i{width: 93px;}
+    .main .picture li:first-child p{ margin-left: -93px;}
+    .main .picture li:last-child p{ margin-right: -93px;}
+}
+
+@media(min-width:1300px){
+    .main .picture li i{width: 99px;}
+    .main .picture li:first-child p{ margin-left: -99px;}
+    .main .picture li:last-child p{ margin-right: -99px;}
+}
+
+@media(min-width:1350px){
+    .main .picture li i{width: 105px;}
+    .main .picture li:first-child p{ margin-left: -105px;}
+    .main .picture li:last-child p{ margin-right: -105px;}
+}
+
+@media(min-width:1400px){
+    .main .picture li i{width: 110px;}
+    .main .picture li:first-child p{ margin-left: -110px;}
+    .main .picture li:last-child p{ margin-right: -110px;}
+}
+
+@media(min-width:1450px){
+    .main .picture li i{width: 116px;}
+    .main .picture li:first-child p{ margin-left: -116px;}
+    .main .picture li:last-child p{ margin-right: -116px;}
+}
+
+@media(min-width:1500px){
+    .main .picture li i{width: 121px;}
+    .main .picture li:first-child p{ margin-left: -121px;}
+    .main .picture li:last-child p{ margin-right: -121px;}
+}
+
+@media(min-width:1550px){
+    .main .picture li i{width: 128px;}
+    .main .picture li:first-child p{ margin-left: -128px;}
+    .main .picture li:last-child p{ margin-right: -128px;}
+}
+
+@media(min-width:1600px){
+    .main .picture li i{width: 133px;}
+    .main .picture li:first-child p{ margin-left: -133px;}
+    .main .picture li:last-child p{ margin-right: -133px;}
+}
+
+@media(min-width:1620px){
+    .main .picture li i{width: 136px;}
+    .main .picture li:first-child p{ margin-left: -136px;}
+    .main .picture li:last-child p{ margin-right: -136px;}
+}
+
+@media(min-width:1630px){
+    .main .picture li i{width: 137px;}
+    .main .picture li:first-child p{ margin-left: -137px;}
+    .main .picture li:last-child p{ margin-right: -137px;}
+}
+
+@media(min-width:1650px){.
+    .main .picture li i{width: 137px;}
+    .main .picture li:first-child p{ margin-left: -137px;}
+    .main .picture li:last-child p{ margin-right: -137px;}
+}
+
+@media(min-width:1700px){
+    .main .picture li i{width: 142px;}
+    .main .picture li:first-child p{ margin-left: -142px;}
+    .main .picture li:last-child p{ margin-right: -142px;}
+}
+
+@media(min-width:1708px){
+    .main .picture li i{width: 145px;}
+    .main .picture li:first-child p{ margin-left: -145px;}
+    .main .picture li:last-child p{ margin-right: -145px;}
+}
+
+@media(min-width:1800px){
+    
+    .main .picture li i{width: 155px;}
+    .main .picture li:first-child p{ margin-left: -155px;}
+    .main .picture li:last-child p{ margin-right: -155px;}
+}
+
+.header-active{
+    background-position: -274px -285px;
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none
+        }
+
+        body {
+            background: #ccc
+        }
+
+        .main {
+            position: relative;
+            margin: 50px auto;
+            width: 300px;
+            height: 150px;
+            color: #fff
+        }
+
+        .main input {
+            display: none
+        }
+
+        .main label {
+            display: block;
+            height: 24px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .main li {
+            float: left;
+            margin-right: 3px;
+            width: 50px;
+            height: 24px;
+            background: #eee;
+            line-height: 24px
+        }
+
+        .main div {
+            position: absolute;
+            top: 24px;
+            left: 0;
+            display: none;
+            width: 300px;
+            height: 126px;
+            padding: 10px;
+        }
+
+        .main div,.main input:checked~label {
+            background: #999
+        }
+
+        .main input:checked~div {
+            display: block
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <ul>
+        <li>
+            <input type="radio" name="tabs" id="tab1" checked>
+            <label for="tab1">语文</label>
+            <div>床前明月光</div>
+        </li>
+        <li>
+            <input type="radio" name="tabs" id="tab2">
+            <label for="tab2">数学</label>
+            <div>疑是地上霜</div>
+        </li>
+        <li>
+            <input type="radio" name="tabs" id="tab3">
+            <label for="tab3">英语</label>
+            <div>举头望明月</div>
+        </li>
+        <li>
+            <input type="radio" name="tabs" id="tab4">
+            <label for="tab4">政治</label>
+            <div>低头思故乡</div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

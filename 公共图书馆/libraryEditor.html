@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>后台首页</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+      <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="../css/liGonggong.css" type="text/css" />
+    <link rel="stylesheet" href="../css/libraryEditor.css" type="text/css" />
+  </head>
+  <body>
+   <header>
+     <ul>
+       <li><a href="javascript:void(0)"><img src="../images/home/homeOne.png" alt="" />公共图书馆<p></p></a></li>
+       <li><a href="javascript:void(0)"><img src="../images/home/homeTwo.png" alt="" />文化馆（群艺馆）<p></p></a></li>
+       <li><a href="javascript:void(0)"><img src="../images/home/homeThree.png" alt="" />朝鲜民族艺术馆<p></p></a></li>
+       <li><a href="javascript:void(0)"><img src="../images/home/homeFour.png" alt="" />综合文化中心<p></p></a></li>
+       <li><a href="javascript:void(0)"><img src="../images/home/homeFire.png" alt="" />文化广场<p></p></a></li>
+     </ul>
+   </header>
+  
+    <!-- 内容 -->
+    <div class="main">
+      <div class="top">
+        <div class="edit">
+          <p>编辑图书馆信息</p>
+          <p>返回<em></em></p>
+        </div>
+        <div id="news">
+          <ul class="tabs picture">
+              <li class="active"><span>1</span><i></i><p>机构建设情况</p></li>
+              <li><i></i><span>2</span><i></i><p>设备配发<br />(乐器、音响、信息共享工程、图书)</p></li>
+              <li><i></i><span>3</span><i></i><p>从业人员</p></li>
+              <li><i></i><span>4</span><i></i><p>实物/电子藏量</p></li>
+              <li><i></i><span>5</span><i></i><p>各类活动</p></li>
+              <li><i></i><span>6</span><p>其他</p></li>
+          </ul>
+          <div class="cons">
+            <form action="">
+              <div class="on">
+                <div class="form">
+                  <div>
+                    <label for="exampleInputName1">应建机构数量：</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName1">已建机构数量：</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                    <p>①+②+③=已建数量</p>
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">①自建机构数量：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName3">②共建机构数量：</label>
+                    <input type="text" class="form-control" id="exampleInputName3">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName4">③其他（机构数量）：</label>
+                    <input type="text" class="form-control" id="exampleInputName4">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName5">建筑面积：</label>
+                    <input type="text" class="form-control" id="exampleInputName5">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName6">已达标个数：</label>
+                    <input type="text" class="form-control" id="exampleInputName6">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                </div>
+                <div class="down">
+                  <a href="javascript:void(0)" class="btn btn-primary btn-lg xiayixiang" role="button">下一项</a>
+                </div>
+              </div>
+              <div>
+                <div class="form">
+                  <div>
+                    <label for="exampleInputName1">应配套：</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">已配套：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                </div>
+                <!-- 底部 -->
+                <div class="down">
+                  <a href="#" class="button">上一项</a>
+                  <a href="javascript:void(0)" class="btn btn-primary btn-lg twoXia xiayixiang" role="button">下一项</a>
+                </div>
+              </div>
+              <div>
+                <!-- 表单 -->
+                <div class="form">
+                  <div>
+                    <label for="exampleInputName1">编制数：</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">正高级：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName1">副高级：</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">中职职称：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName1">其他专业人员：</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">雇员：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">后台行政：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                </div>
+                <!-- 底部 -->
+                <div class="down">
+                  <a href="javascript:void(0)" class="button">上一项</a>
+                  <a href="javascript:void(0)" class="btn btn-primary btn-lg twoXia xiayixiang" role="button">下一项</a>
+                </div>
+              </div>
+              <div>
+                <!-- 表单 -->
+                <div class="form">
+                  <div>
+                    <label for="exampleInputName1">实物藏量：</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">电子藏量：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName1">总流通人数：</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">免费开放时间（月）：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                </div>
+                <!-- 底部 -->
+                <div class="down">
+                  <a href="javascript:void(0)" class="button">上一项</a>
+                  <a href="javascript:void(0)" class="btn btn-primary btn-lg twoXia xiayixiang" role="button">下一项</a>
+                </div>
+              </div>
+              <div>
+                <!-- 表单 -->
+                <div class="form">
+                  <div>
+                    <label for="exampleInputName1">流动图书服务（次）：</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">文艺活动（次）：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName1">培训班（次）：</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">展览（次）：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">其他活动（次）：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                </div>
+                <!-- 底部 -->
+                <div class="down">
+                  <a href="javascript:void(0)" class="button">上一项</a>
+                  <a href="javascript:void(0)" class="btn btn-primary btn-lg twoXia xiayixiang" role="button">下一项</a>
+                </div>
+              </div>
+              <div>
+                <!-- 表单 -->
+                <div class="form">
+                  <div>
+                    <label for="exampleInputName1">无障碍服务：</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">计算机：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName1">本年收入：</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">本年支出：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                  <div>
+                    <label for="exampleInputName2">次产合计：</label>
+                    <input type="text" class="form-control" id="exampleInputName2">
+                    <em>此项不能为空，请填写资料</em>
+                  </div>
+                </div>
+                <div class="down">
+                  <a href="javascript:void(0)" class="button">上一项</a>
+                  <a href="javascript:void(0)" class="btn btn-primary btn-lg twoXia tijiao" role="button">提交</a>
+                  <a href="javascript:void(0)" class="fr button">预览</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- 遮挡层 -->
+    <div class="zhedang"></div>
+    <div class="tishi">
+      <div class="top">
+        <p>提示</p>
+        <span class="glyphicon glyphicon-remove"></span>
+      </div>
+      <div class="zhedangDown">
+        <p></p>
+        <div class="anButton">
+          <a href="#">确认提交</a>
+          <a href="#">预览</a>
+          <a href="#">确认</a>
+        </div>
+      </div>
+    </div>
+  
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    
+    <script src="../js/libraryEditor.js"></script>
+
+  </body>
+</html>

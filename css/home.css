@@ -1,0 +1,93 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.3.22
+    最新更新:2018.3.22
+    修改人员:无
+    修改日期:无
+    修改原因:无
+    修改代码行数区间:无
+*/
+/* 内容 */
+.main{width: 98%; margin:0 1%; background: #fff; margin-bottom: 100px;}
+.main .mainTop{ width: 100%; height: 70px; line-height: 70px;}
+.main .mainTop ul{width: 100%; float: right;}
+.main .mainTop ul li,.main .mainTop ul p{ float: right;}
+.main .mainTop ul li{font-size: 14px; cursor: pointer; margin-left: 25px; position:relative;}
+
+.main .mainTop ul li:first-child{ padding-right: 20px;}
+.main .mainTop ul p em{ font-style: normal; margin-right:8px; color: #777;}
+.main .mainTop ul p select{ width: 122px; height: 24px; border-radius: 4px; padding-left: 10px; border:1px solid #ddd; margin-right: 40px; color: #777;}
+.main .mainTop ul p input{ height: 24px; border:1px solid #DDD; border-radius: 4px; text-align: right;}
+.main .mainTop ul li:hover{ font-size: 18px;}
+.main .mainTop ul li:hover a{ color: #000;}
+.main .mainTop ul li p{ width: 15px; height: 2px; background: #00f; position: absolute; bottom: 10px; left: 10px; display: none;}
+.main .mainTop ul li:hover p{ display: block;}
+
+.main .mainDown .table{ height: 54px;}
+.main .mainDown .table thead th{ border:0; font-size: 14px; color: #555; padding-left: 20px; height: 50px; padding-top:15px; border-color: #F1F1F1; font-weight: 400;}
+.main .mainDown .table thead th:last-child{ width: 15%; text-align: center;}
+.main .mainDown .table tbody th{color: #0C85E8; font-weight: 400; padding-left: 20px; height: 50px; padding-top: 15px; border-color: #F1F1F1;}
+.main .mainDown .table tbody td{ padding-top: 15px; padding-left: 20px; border-color: #F1F1F1;}
+.main .mainDown .table tbody td:nth-child(4){ color: #0C85E8;}
+.main .mainDown .table tbody td.gray{ color: #898989; padding-left: 30px; font-weight: 700;}
+.main .mainDown .table tbody td.kong{ text-align: center;}
+.main .mainDown .table tbody td.red{color: #D80000;}
+.main .mainDown .table tbody td button{width: 60px; height: 24px; border:none; border-radius:20px; border:1px solid #0B9AE8; background: #fff; color: #0B9AE8;}
+.main .mainDown .table tbody td button:first-child{ margin-left: 20%;}
+.main .mainDown .table tbody td button.hover:hover{ background: #0B9AE8; color: #fff;}
+.main .mainDown .table tbody td button.btn{ line-height: 10px; color: #aaa; border:1px solid #aaa; margin-top: 0px; font-size:12px;}
+
+/* 底部 */
+footer{ width: 98%; height: 60px; background: #383C4D; margin:0 1%; position:fixed; bottom: 20px; box-shadow: 5px 5px 5px #ccc;}
+footer button{ width: 100px; height: 30px; background: none; color: #fff; border:1px solid #fff; border-radius:20px; margin-right: 20px; margin-top: 15px;}
+footer button:hover{ background: #fff; color: #000;}
+
+
+
+
+@media(min-width:880px){
+    .main .mainDown .table tbody td:last-child{ padding-left: 15px; padding-top: 5px; padding-bottom: 5px;}
+    .main .mainDown .table tbody td:last-child a:last-child{ display: inline-block; margin-left: 8px; margin-top: 5px;}
+}
+
+@media(min-width:960px){
+    .main .mainDown .table tbody td:last-child{ padding-left: 20px;}
+    .main .mainDown .table tbody td:last-child a:last-child{ margin-left: 10px;}
+}
+
+@media(min-width:1050px){
+    .main .mainDown .table tbody td:last-child{ padding-left: 30px;}
+    .main .mainDown .table tbody td:last-child a:last-child{ margin-left: 11px;}
+}
+
+@media(min-width:1100px){
+    .main .mainDown .table tbody td:last-child{ padding-left: 35px;}
+}
+
+@media(min-width:1150px){
+    .main .mainDown .table tbody td:last-child{ padding-left: 35px;}
+    .main .mainDown .table tbody td:last-child a:last-child{ margin-left: 13px;}
+}
+
+@media(min-width:1200px){
+    .main .mainDown .table tbody td:last-child{ padding-left: 35px;}
+    .main .mainDown .table tbody td:last-child a:last-child{ margin-left: 15px;}
+}
+
+@media(min-width:1300px){
+    .main .mainDown .table tbody td:last-child{ padding-left: 40px;}
+    .main .mainDown .table tbody td:last-child a:last-child{ margin-left: 17px;}
+}
+
+@media(min-width:1400px){
+    .main .mainDown .table tbody td:last-child{ padding-left: 55px;}
+}
+
+@media(min-width:1500px){
+    .main .mainDown .table tbody td:last-child{ padding-left: 58px;}
+    .main .mainDown .table tbody td:last-child a:last-child{ margin-left: 19px;}
+}
+
+@media(min-width:1600px){
+    .main .mainDown .table tbody td:last-child{ padding-left: 0px;}
+}

@@ -1,0 +1,174 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.3.22
+    最新更新:2018.3.22
+    修改人员:无
+    修改日期:无
+    修改原因:无
+    修改代码行数区间:无
+*/
+/* 内容 */
+.main{width: 98%; height: auto; margin:0 1%; background: #fff; overflow: hidden;}
+.main .top .edit{ height: 50px; line-height: 50px; padding:0 20px;}
+.main .top .edit p{float: left; font-size: 15px; color: #000;}
+.main .top .edit p:last-child{ float: right; color: #ADADAD; font-size: 12px; cursor:pointer; position:relative;}
+.main .top .edit p:last-child em{display: inline-block; width: 15px; height: 3px; background: #0C9BE9; position:absolute;bottom: 0; right:7px; display: none;}
+.main .top .edit p:last-child:hover{ font-size: 16px; color: #000;}
+.main .top .edit p:last-child:hover em{ display: block;}
+
+.tabs{*zoom:1;}
+.cons>form>div{ display: none;}
+.cons>form>div.on{ display: block;}
+/* 表单 */
+.main .top .form{width: 98%; margin:0 1%; margin-top: 60px;}
+.main .top .form div{ width: 100%; height: auto; overflow: hidden; zoom: 1; margin-top: 30px;}
+.main .top .form label{ width: 180px; height: auto; line-height: 35px; color:#777; font-weight: 400; text-align: right; float: left; padding-right: 30px; position:relative;}
+.main .top .form p{ line-height: 35px; padding-left: 40px; float: left; color: #777; vertical-align: middle; letter-spacing: 1px; font-size: 14px;}
+.main .top .form input{ width: 300px; float: left;}
+.main .top .form div em{ float: left; font-style: normal; color: #f00; line-height: 35px; margin-left: 30px; display: none;}
+
+/* 底部 */
+.main .down{width: 98%; margin: 30px 1%; height: 95px; text-align: center; border-top:1px dashed #D2D8E7;}
+.main .down .button{ border:1px solid #0B9AE8; background: none; background: #fff; width: 90px; height: 36px; border-radius:50px; margin-top: 30px; color: #0B9AE8; font-size: 14px; line-height: 36px;}
+.main .down a{ display: inline-block; width: 90px; height: 36px; font-size: 14px; border-radius:50px; background: none; border:1px solid #0B9AE8; color: #0B9AE8; margin-top: 30px; cursor:pointer;}
+.main .down a:hover,.main .down .button:hover{background: #0B9AE8; color: #fff;}
+.main .down a.disabled{ background: #ccc; border:none; color: #fff;}
+
+.main .down a.twoXia{ margin-top:-3px; margin-left: 40px;}
+
+
+.zhedang{width: 100%; background: rgba(0,0,0,.2); position: absolute; top: 0; left: 0; display: none;}
+.tishi{ width: 400px; height: 250px; position: absolute; top: 40%; left: 40%; background: #fff; display: none;}
+.tishi .top{width: 400px; height: 50px; border-bottom:1px solid #ddd; text-align: center; line-height: 50px; color: #000; font-size:18px; position:relative;}
+.tishi .top span{ position: absolute; right: 20px; top: 15px; cursor: pointer;}
+
+.tishi .zhedangDown{width: 100%; height: 200px;}
+.tishi .zhedangDown p{ text-align: center; margin-top: 40px; font-size: 16px; line-height: 25px;}
+.tishi .zhedangDown .anButton{ text-align: center; padding-top: 40px; font-size: 14px;}
+.tishi .zhedangDown .anButton a{ display: inline-block; width: 100px; height: 40px; line-height: 40px; text-align: center; border-radius:50px; color:#0B9AE8; border:1px solid #0B9AE8;}
+.tishi .zhedangDown .anButton a:last-child{ margin-left: 10px;}
+.tishi .zhedangDown .anButton a:hover{background: #0B9AE8; color: #fff;}
+.main .top .form span{color: #353535; line-height: 40px;padding-left:20px;}
+
+@media(min-width:800px){
+    header ul li{ font-size: 12px;}
+    .main .picture li i{width: 33px;}
+    .main .picture li:first-child p{ margin-left: -33px;}
+    .main .picture li:last-child p{ margin-right: -33px;}
+}
+
+@media(min-width:900px){
+    header ul li{ font-size: 14px;}
+    .main .picture li i{width: 42px;}
+    .main .picture li:first-child p{ margin-left: -42px;}
+    .main .picture li:last-child p{ margin-right: -42px;}
+}
+
+@media(min-width:960px){
+    header ul li{ font-size: 16px;}
+    .main .picture li i{width: 47px;}
+    .main .picture li:first-child p{ margin-left: -47px;}
+    .main .picture li:last-child p{ margin-right: -47px;}
+}
+
+@media(min-width:1000px){
+    .main .picture li i{width: 50px;}
+    .main .picture li:first-child p{ margin-left: -50px;}
+    .main .picture li:last-child p{ margin-right: -50px;}
+}
+
+@media(min-width:1050px){
+    .main .picture li i{width: 55px;}
+    .main .picture li:first-child p{ margin-left: -55px;}
+    .main .picture li:last-child p{ margin-right: -55px;}
+}
+
+@media(min-width:1100px){
+    .main .picture li i{width: 60px;}
+    .main .picture li:first-child p{ margin-left: -60px;}
+    .main .picture li:last-child p{ margin-right: -60px;}
+}
+
+@media(min-width:1150px){
+    .main .picture li i{width: 64px;}
+    .main .picture li:first-child p{ margin-left: -64px;}
+    .main .picture li:last-child p{ margin-right: -64px;}
+}
+
+@media(min-width:1200px){
+    .main .picture li i{width: 69px;}
+    .main .picture li:first-child p{ margin-left: -69px;}
+    .main .picture li:last-child p{ margin-right: -69px;}
+}
+
+@media(min-width:1250px){
+    .main .picture li i{width: 74px;}
+    .main .picture li:first-child p{ margin-left: -74px;}
+    .main .picture li:last-child p{ margin-right: -74px;}
+}
+
+@media(min-width:1300px){
+    .main .picture li i{width: 77px;}
+    .main .picture li:first-child p{ margin-left: -77px;}
+    .main .picture li:last-child p{ margin-right: -77px;}
+}
+
+@media(min-width:1350px){
+    .main .picture li i{width: 82px;}
+    .main .picture li:first-child p{ margin-left: -82px;}
+    .main .picture li:last-child p{ margin-right: -82px;}
+}
+
+@media(min-width:1400px){
+    .main .picture li i{width: 86px;}
+    .main .picture li:first-child p{ margin-left: -86px;}
+    .main .picture li:last-child p{ margin-right: -86px;}
+}
+
+@media(min-width:1450px){
+    .main .picture li i{width: 91px;}
+    .main .picture li:first-child p{ margin-left: -91px;}
+    .main .picture li:last-child p{ margin-right: -91px;}
+}
+
+@media(min-width:1500px){
+    .main .picture li i{width: 95px;}
+    .main .picture li:first-child p{ margin-left: -95px;}
+    .main .picture li:last-child p{ margin-right: -95px;}
+}
+
+@media(min-width:1550px){
+    .main .picture li i{width: 99px;}
+    .main .picture li:first-child p{ margin-left: -99px;}
+    .main .picture li:last-child p{ margin-right: -99px;}
+}
+
+@media(min-width:1600px){
+    .main .picture li i{width: 104px;}
+    .main .picture li:first-child p{ margin-left: -104px;}
+    .main .picture li:last-child p{ margin-right: -104px;}
+}
+
+@media(min-width:1620px){
+    .main .picture li i{width: 106px;}
+    .main .picture li:first-child p{ margin-left: -106px;}
+    .main .picture li:last-child p{ margin-right: -106px;}
+}
+
+@media(min-width:1630px){
+    .main .picture li i{width: 107px;}
+    .main .picture li:first-child p{ margin-left: -107px;}
+    .main .picture li:last-child p{ margin-right: -107px;}
+}
+
+@media(min-width:1650px){
+    .main .picture li i{width: 107px;}
+    .main .picture li:first-child p{ margin-left: -107px;}
+    .main .picture li:last-child p{ margin-right: -107px;}
+}
+
+@media(min-width:1700px){
+    .main .picture li i{width: 112px;}
+    .main .picture li:first-child p{ margin-left: -112px;}
+    .main .picture li:last-child p{ margin-right: -112px;}
+}

@@ -1,0 +1,35 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.3.23
+    最新更新:2018.3.23
+    修改人员:无
+    修改日期:无
+    修改原因:无
+    修改代码行数区间:无
+*/
+.main{width: 98%; margin:0 1%; background: #fff; margin-bottom: 100px;}
+/* 头部 */
+.main .mainTop{ height: 60px; line-height: 60px; padding-left: 25px;}
+.main .mainTop span{ font-size: 18px;}
+.main .mainTop a span{ display: inline-block; padding-right: 30px; font-size: 14px;}
+.main .mainTop a p{ width: 14px; height: 3px; background: #0B9AE8; margin-top: -5px; margin-left: 11px; display: none;}
+.main .mainTop a:hover span{ color: #000; font-size: 16px;}
+.main .mainTop a:hover p{ display: block;}
+
+/* 内容 */
+.main .mainDown{ margin-top: 20px; overflow: hidden; zoom: 1;}
+.main .mainDown p.title{ border-left:3px solid #1E3C85; padding-left: 22px; margin:20px 0 10px 0; color: #000; font-size: 16px;}
+.main .mainDown p.title:first-child{ margin-top:0;}
+.main .mainDown ul{ overflow: hidden; zoom: 1; border-bottom:1px solid #F1F1F1;}
+.main .mainDown li{ width: 10%; line-height: 30px; text-align: center; float: left;}
+.main .mainDown li p{height: 50px; line-height: 50px;}
+.main .mainDown li p input{ line-height: 30px; text-align: center; border:none; background: none;}
+.main .mainDown li p input.active{border:1px solid #AAA; border-radius:4px; width: 100px; height: 30px;}
+.main .mainDown ul:last-child{border:none;}
+
+.main .tijiao{ width: 98%; margin: 15px auto; height: 96px; text-align: center; border-top:1px dashed #D7DCEA;}
+.main .tijiao a button{width: 90px; height: 36px; border:1px solid #0B9AE8; border-radius: 50px; background: none; color: #0B9AE8; margin-top: 20px;}
+.main .tijiao a button:first-child{ margin-right: 20px;}
+.main .tijiao a button:last-child{ margin-left: 20px;}
+.main .tijiao a:hover button{background: #4AA7EC; color: #fff;}
+

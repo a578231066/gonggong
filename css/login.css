@@ -1,0 +1,41 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2018.3.23
+    最新更新:2018.3.23
+    修改人员:无
+    修改日期:无
+    修改原因:无
+    修改代码行数区间:无
+*/
+body{ width: 100%; background: url(../images/loginBg.jpg) repeat-y; background-size: 100%; overflow: hidden;}
+.login{width: 600px; height: 300px; margin:200px auto; background: #fff;}
+.login div{width: 50%; height: 100%; float: left;}
+.login div.left{ background: url('../images/loginFl.jpg') no-repeat; background-size: 100% 100%; padding-top: 120px; line-height: 30px; letter-spacing: 1px; padding-left: 40px; font-family: "微软雅黑"}
+.login div.left p{ color: #fff; font-size: 17px;}
+.login div.right{ height: auto; padding-top: 20px;}
+.login div.right p{ width: 80%; height: 60px; padding-top: 25px; margin:0 auto; border-bottom:1px solid #ddd;}
+
+.login div.right p:first-child img{ margin-right: 5px;}
+.login div.right p input{ width: 80%; height: 32px; padding-left: 20px; border:none;}
+.login div.right p:last-child input{ width: 50%;}
+.login div.right p:last-child input:last-child{ background: url(../images/yanzhengmaBg.jpg) no-repeat; background-size: 100% 100%; color: #4c794c; font-size: 17px; font-weight: 700;  letter-spacing: 5px; padding-left: 10px; border:1px solid #ddd; cursor: pointer;}
+
+.login div.rightDown{ height: auto;}
+.login div.rightDown .jizhu{width: 80%; margin-top: 10px; margin-left: 10%;`}
+.login div.rightDown .jizhu span{ font-size: 12px; color: #c1c1c1;}
+.login div.rightDown .jizhu span label{ font-weight: 400; cursor: pointer;}
+.login div.rightDown .jizhu a:hover span{ color: #000;}
+.login div.rightDown .jizhu span input{ vertical-align: -2px; margin-right: 5px;}
+.login div.rightDown .button{ width: 100%; text-align: center; padding-top: 20px;}
+.login div.rightDown .button button{width: 190px; height: 25px; background: #0a4e9f; border:none; border-radius: 50px; color: #fff; letter-spacing: 15px; padding-left: 30px}
+.login div.rightDown .button button:hover{ background: #0B9AE8;}
+
+
+
+
+
+
+
+
+
+
