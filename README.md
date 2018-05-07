@@ -11,3 +11,7 @@
 ### 界面截图
 
 <img src="images/git/GIF.gif" />
+
+#### 部分截图
+
+<img src="images/git/GIT1.gif" />
