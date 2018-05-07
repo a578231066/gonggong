@@ -14,4 +14,4 @@
 
 #### 部分截图
 
-<img src="images/git/GIT1.gif" />
+<img src="images/git/GIF1.gif" />
