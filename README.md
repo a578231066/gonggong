@@ -10,4 +10,4 @@
 
 ### 界面截图
 
-<img src="images/git/Gif.gif" />
+<img src="images/git/GIF.gif" />
