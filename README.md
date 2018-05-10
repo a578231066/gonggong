@@ -10,7 +10,7 @@
   
 <img src="images/git/git.png" />
 
-### 界面截图123
+### 界面截图
 
 <img src="images/git/GIF.gif" />
 
